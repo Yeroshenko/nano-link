@@ -1,0 +1,48 @@
+.link-card__inner
+  display: flex
+  align-items: center
+  justify-content: center
+
+.link-card__statistics
+  display: flex
+  align-items: center
+  margin-bottom: 36px
+  justify-content: space-around
+
+  .ant-statistic
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  .ant-statistic-title
+    font-size: 16px
+
+.link-card__links
+  display: flex
+  align-items: center
+  flex-direction: column
+  
+.link-card__link
+  display: flex
+  font-size: 16px
+
+  .ant-typography
+    text-align: center
+
+.link-card__link-title
+  margin-right: 5px
+
+@media screen and ( max-width: 768px )
+  .link-card__link
+    flex-direction: column      
+    align-items: center
+
+@media screen and ( max-width: 425px )
+  .link-card__statistics
+    flex-direction: column
+
+    .ant-statistic
+      &:not(:last-child)
+        margin-bottom: 24px
+        
+  
