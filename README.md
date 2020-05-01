@@ -1,9 +1,12 @@
-<h1 align="center">Nano link</h1>
+<h1 align="center">NANO LINK</h1>
 
-## MERN STACK
+Using: 
+- MongoDB
+- Express.js
+- React.js
+- Node.js
 
 Deploy:
 - cd config 
 - nano production.json
 - edit this file <br>
-
