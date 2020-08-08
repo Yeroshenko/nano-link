@@ -2,5 +2,5 @@
   "port": 5000,
   "jwtSecret": "i am secret",
   "mongoUri": "mongodb+srv://admin:qwerty12345@cluster0-7wmcl.mongodb.net/app?retryWrites=true&w=majority",
-  "baseUrl": "http://localhost:5000"
+  "baseUrl": "https://nano-link.herokuapp.com"
 }
